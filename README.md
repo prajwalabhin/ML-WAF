@@ -21,6 +21,11 @@ This project implements a Web Application Firewall (WAF) that detects and preven
 - NumPy
 - Flask (if implementing the WAF as a web service)
 
+## Datasets
+*  ECML/PKDD 2007 dataset [Link](http://www.lirmm.fr/pkdd2007-challenge/)
+*  HTTP parameters dataset [Link](https://github.com/Morzeux/HttpParamsDataset)
+*  XSS dataset [Link](https://www.kaggle.com/syedsaqlainhussain/cross-site-scripting-xss-dataset-for-deep-learning)
+
 ## Installation Instructions:
 1. Clone this repository:  
    ```bash
@@ -65,3 +70,6 @@ This WAF is built using a Support Vector Machine (SVM), a powerful algorithm for
 
 ## License:
 This project is licensed under the MIT License.
+
+## Note
+This Web Application Firewall (WAF) is not intended for production use, as it was developed as a side project and has not undergone thorough testing.
