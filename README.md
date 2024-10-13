@@ -11,6 +11,11 @@ This project implements a Web Application Firewall (WAF) that detects and preven
 - Utilizes a Support Vector Machine (SVM) model for efficient classification.
 - Data preprocessing and feature extraction for optimized performance.
 
+## DataSets
+*  ECML/PKDD 2007 dataset [Link](http://www.lirmm.fr/pkdd2007-challenge/)
+*  HTTP parameters dataset [Link](https://github.com/Morzeux/HttpParamsDataset)
+*  XSS dataset [Link](https://www.kaggle.com/syedsaqlainhussain/cross-site-scripting-xss-dataset-for-deep-learning)
+
 ## Requirements:
 - Python 3.x
 - Scikit-learn
@@ -59,8 +64,8 @@ This WAF is built using a Support Vector Machine (SVM), a powerful algorithm for
 5. **Results:**  
    The system successfully detects and blocks XSS attacks with an accuracy of 99.58%. It demonstrates robustness in real-time traffic scenarios, ensuring the security of web applications.
 
-## Contributors:
-- Prajwal
-
 ## License:
 This project is licensed under the MIT License.
+
+## Note
+This Web Application Firewall (WAF) is not intended for production use, as it was developed as a side project and has not undergone thorough testing.
