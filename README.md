@@ -1,7 +1,5 @@
+
 # Machine Learning-Based Web Application Firewall (WAF)
-Cross-Site Scripting (XSS) attacks are dangerous vulnerabilities that allow attackers to inject malicious scripts into web pages viewed by users. The goal of this project is to develop a Web Application Firewall that can prevent such attacks using a machine learning model.
-
-
 
 ## Overview
 This project implements a Web Application Firewall (WAF) that detects and prevents Cross-Site Scripting (XSS) attacks, which are a common threat to web applications. Using a Support Vector Machine (SVM) model, the WAF processes incoming HTTP requests, classifies them as either benign or malicious, and accurately identifies the type of attack if one is detected. The system achieved an accuracy of 99.58% in identifying these attacks.
@@ -13,6 +11,12 @@ This project implements a Web Application Firewall (WAF) that detects and preven
 - Utilizes a Support Vector Machine (SVM) model for efficient classification.
 - Data preprocessing and feature extraction for optimized performance.
 
+## Project Structure:
+- `data/`: Contains datasets used for training and testing.
+- `models/`: Contains the trained SVM model and model evaluation scripts.
+- `notebooks/`: Contains Jupyter notebooks for data cleaning, feature extraction, and model building.
+- `waf/`: Web application firewall implementation using the trained model.
+- `docs/`: Documentation of the project and a user manual.
 
 ## Requirements:
 - Python 3.x
@@ -21,15 +25,10 @@ This project implements a Web Application Firewall (WAF) that detects and preven
 - NumPy
 - Flask (if implementing the WAF as a web service)
 
-## Datasets
-*  ECML/PKDD 2007 dataset [Link](http://www.lirmm.fr/pkdd2007-challenge/)
-*  HTTP parameters dataset [Link](https://github.com/Morzeux/HttpParamsDataset)
-*  XSS dataset [Link](https://www.kaggle.com/syedsaqlainhussain/cross-site-scripting-xss-dataset-for-deep-learning)
-
 ## Installation Instructions:
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/prajwalabhin/ML-WAF.git 
+   git clone https://github.com/your-username/waf-ml.git
    ```
 2. Install the required dependencies:  
    ```bash
@@ -67,9 +66,8 @@ This WAF is built using a Support Vector Machine (SVM), a powerful algorithm for
 5. **Results:**  
    The system successfully detects and blocks XSS attacks with an accuracy of 99.58%. It demonstrates robustness in real-time traffic scenarios, ensuring the security of web applications.
 
+## Contributors:
+- Prajwal
 
 ## License:
 This project is licensed under the MIT License.
-
-## Note
-This Web Application Firewall (WAF) is not intended for production use, as it was developed as a side project and has not undergone thorough testing.

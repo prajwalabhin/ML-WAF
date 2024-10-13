@@ -1,0 +1,5 @@
+- Python 3.x
+- Scikit-learn
+- Pandas
+- NumPy
+- Flask (if implementing the WAF as a web service)
