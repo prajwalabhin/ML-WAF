@@ -11,13 +11,6 @@ This project implements a Web Application Firewall (WAF) that detects and preven
 - Utilizes a Support Vector Machine (SVM) model for efficient classification.
 - Data preprocessing and feature extraction for optimized performance.
 
-## Project Structure:
-- `data/`: Contains datasets used for training and testing.
-- `models/`: Contains the trained SVM model and model evaluation scripts.
-- `notebooks/`: Contains Jupyter notebooks for data cleaning, feature extraction, and model building.
-- `waf/`: Web application firewall implementation using the trained model.
-- `docs/`: Documentation of the project and a user manual.
-
 ## Requirements:
 - Python 3.x
 - Scikit-learn
